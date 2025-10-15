@@ -1,0 +1,23 @@
+<!-- popup.html -->
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>PhishEye</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>PhishEye</h2>
+    <div id="status" class="status">Analyzing...</div>
+    <div id="url" class="url"></div>
+    <ul id="reasons" class="reasons"></ul>
+    <div class="actions">
+      <button id="openReport">Report (copy URL)</button>
+      <button id="trustPage">Mark as Trusted</button>
+    </div>
+    <div class="note">PhishEye uses heuristics — treat as advisory only.</div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
